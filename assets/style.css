@@ -26,12 +26,25 @@ nav ul li {
   padding: 0.5%;
 }
 
+header section {
+  display: flex;
+  flex: 1;
+  float: inline-end;
+}
+
+header section h2 {
+  display: flex;
+  flex: 2;
+  text-align: bottom;
+}
+
 main {
   padding: 1.3%;
 }
 
 main div {
-  float: inline-start;
+  flex-direction: column;
+  padding: 10px;
 }
 
 main div section {
@@ -75,7 +88,18 @@ footer {
   color: antiquewhite;
 }
 
+.background-image {
+  background-image: url(https://www.aramcoworld.com/getattachment/e2f3558a-76ff-4688-ac85-be7304c05748/Asian-Nations-Unite-to-Protect-Snow-Leopards.jpg?width=1200);
+  height: 400px;
+  width: 1200px;
+}
+
+.subtitle {
+  color: dimgray;
+}
+
 .main {
+  background-color: darkgray;
 }
 
 .main-div {
@@ -83,16 +107,20 @@ footer {
 
 .main-div-section {
   color: goldenrod;
-  background-color: olivedrab;
+  background-color: darkolivegreen;
 }
 
 .main-div-section-header {
 }
 
 .main-div-section-p {
+  border: darkgoldenrod solid 2px;
+  padding: 5px;
 }
 
 .main-div-section-img {
+  height: 50px;
+  width: 50px;
 }
 
 .footer {
