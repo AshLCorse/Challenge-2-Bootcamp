@@ -10,9 +10,14 @@ body {
 header {
 }
 
-h1 {
+header h1 {
   padding: 0.5%;
   font-size: large;
+}
+
+header h2 {
+  padding: 0 .5%;
+  margin-bottom: 1%;
 }
 
 nav {
@@ -24,6 +29,13 @@ nav ul {
 nav ul li {
   float: inline-start;
   padding: 0.5%;
+}
+
+nav ul li:hover {
+  background-color: antiquewhite;
+  .links {
+    color: cornflowerblue;
+  }
 }
 
 header section {
@@ -43,8 +55,10 @@ main {
 }
 
 main div {
-  flex-direction: column;
   padding: 10px;
+  float: inline-start;
+  max-height: min-content;
+  max-width: 30%;
 }
 
 main div section {
@@ -55,6 +69,7 @@ main div section header {
 }
 
 main div section p {
+  flex-wrap: wrap;
 }
 
 main div section img {
@@ -71,7 +86,7 @@ footer {
   background-color: cornflowerblue;
 }
 
-.h1 {
+.My-Name {
   color: palegoldenrod;
 }
 
