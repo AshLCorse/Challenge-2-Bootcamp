@@ -8,6 +8,10 @@ body {
 }
 
 header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 74px;
 }
 
 header h1 {
@@ -15,23 +19,29 @@ header h1 {
   font-size: large;
 }
 
-header h2 {
+header p {
   padding: 0 .5%;
   margin-bottom: 1%;
 }
 
-nav {
+sidebar {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 74px;
+  width: 100px;
+  height: 100vh;
 }
 
-nav ul {
+sidebar ul {
 }
 
-nav ul li {
-  float: inline-start;
+sidebar ul li {
+  align-items: left;
   padding: 0.5%;
 }
 
-nav ul li:hover {
+sidebar ul:hover {
   background-color: antiquewhite;
   .links {
     color: cornflowerblue;
@@ -44,7 +54,7 @@ header section {
   float: inline-end;
 }
 
-header section h2 {
+header section p {
   display: flex;
   flex: 2;
   text-align: bottom;
@@ -55,6 +65,7 @@ main {
 }
 
 main div {
+  display: flex;
   padding: 10px;
   float: inline-start;
   max-height: min-content;
@@ -117,12 +128,21 @@ footer {
   background-color: darkgray;
 }
 
-.main-div {
+.header-main {
+  color: black;
 }
 
-.main-div-section {
+.main-div {
   color: goldenrod;
   background-color: darkolivegreen;
+}
+
+.About-Me {
+  scroll-snap-align: start;
+}
+
+.Work {
+
 }
 
 .main-div-section-header {
@@ -136,6 +156,10 @@ footer {
 .main-div-section-img {
   height: 50px;
   width: 50px;
+}
+
+.Contact-Me {
+  scroll-snap-align: end;
 }
 
 .footer {
