@@ -193,6 +193,7 @@ footer {
     margin: auto;
     padding: 0.5% 0.5% 0.5% 5%;
     overflow-y: scroll;
+    left: auto;
   }
   main {
     padding: 0.7%;
