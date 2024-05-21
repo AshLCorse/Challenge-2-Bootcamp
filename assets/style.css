@@ -174,9 +174,7 @@ footer {
 @media screen and (max-width: 992px) {
   main nav {
     padding-top: 75px;
-  }
-  .sidenav {
-background-color: cornflowerblue;
+    background-color: cornflowerblue;
   }
   .sidenav a {
     font-size: 10px;
