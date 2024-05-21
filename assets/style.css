@@ -176,7 +176,7 @@ footer {
     padding-top: 75px;
   }
   .sidenav {
-    padding-top: 30px;
+background-color: cornflowerblue;
   }
   .sidenav a {
     font-size: 10px;
@@ -193,7 +193,6 @@ footer {
     margin: auto;
     padding: 0.5% 0.5% 0.5% 5%;
     overflow-y: scroll;
-    left: auto;
   }
   main {
     padding: 0.7%;
