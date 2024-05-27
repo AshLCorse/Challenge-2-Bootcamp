@@ -173,6 +173,7 @@ footer {
 
 @media screen and (max-width: 992px) {
   main nav {
+    top: 10px
     padding-top: 75px;
     background-color: cornflowerblue;
   }
