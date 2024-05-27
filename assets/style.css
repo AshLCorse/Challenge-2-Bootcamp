@@ -174,15 +174,11 @@ footer {
     padding-top: 75px;
     max-width: 10vw;
   }
-  
-main nav ul li h2:click {
-  color: rgb(209, 194, 181);
-  background-color: olivedrab;
-  box-shadow: 15px;
-}
-
   .sidenav a {
     font-size: 10px;
+    color: rgb(209, 194, 181);
+    background-color: olivedrab;
+    box-shadow: 15px;
   }
   main nav ul li h2 {
     padding: 5px 5px 5px 10px;
@@ -191,7 +187,7 @@ main nav ul li h2:click {
   body {
     min-height: 100vh;
     min-width: 70vw;
-    left: 15vw
+    left: 15vw;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -200,6 +196,7 @@ main nav ul li h2:click {
   }
   main {
     padding: 0.7%;
+    left: 15vw;
     flex-direction: column;
   }
   main div {
@@ -227,17 +224,14 @@ main nav ul li h2:click {
     max-width: 10vw;
   }
 
-  main nav ul li h2:click {
-    color: rgb(209, 194, 181);
-    background-color: olivedrab;
-    box-shadow: 15px;
-  }
-  
   .sidenav {
     padding-top: 30px;
   }
   .sidenav a {
     font-size: 7px;
+    color: rgb(209, 194, 181);
+    background-color: olivedrab;
+    box-shadow: 15px;
   }
   main nav ul li h2 {
     padding: 2px 2px 2px 5px;
@@ -246,7 +240,6 @@ main nav ul li h2:click {
   body {
     min-height: 100vh;
     min-width: 70vw;
-    left: 15vw;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -256,7 +249,7 @@ main nav ul li h2:click {
   main {
     padding: 0.3%;
     flex-direction: column;
-    left 
+    left: 15vw;
   }
   main div {
     padding: 2px;
