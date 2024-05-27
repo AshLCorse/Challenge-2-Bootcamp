@@ -174,7 +174,12 @@ footer {
     padding-top: 75px;
     max-width: 10vw;
   }
+  .sidenav {
+    padding-top: 30px;
+  }
   .sidenav a {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 10px;
     color: rgb(209, 194, 181);
     background-color: olivedrab;
@@ -196,7 +201,7 @@ footer {
   }
   main {
     padding: 0.7%;
-    left: 15vw;
+    margin-left: 15vw;
     flex-direction: column;
   }
   main div {
@@ -228,6 +233,8 @@ footer {
     padding-top: 30px;
   }
   .sidenav a {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 7px;
     color: rgb(209, 194, 181);
     background-color: olivedrab;
@@ -249,7 +256,7 @@ footer {
   main {
     padding: 0.3%;
     flex-direction: column;
-    left: 15vw;
+    margin-left: 15vw;
   }
   main div {
     padding: 2px;
