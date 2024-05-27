@@ -23,9 +23,6 @@ main nav ul li h2:hover {
   box-shadow: 15px;
 }
 
-main nav ul li h2:click {
-}
-
 body {
   min-height: 100vh;
   min-width: 90vw;
@@ -176,6 +173,13 @@ footer {
     top: 10px
     padding-top: 75px;
   }
+  
+main nav ul li h2:click {
+  color: rgb(209, 194, 181);
+  background-color: olivedrab;
+  box-shadow: 15px;
+}
+
   .sidenav a {
     font-size: 10px;
   }
@@ -219,6 +223,13 @@ footer {
   main nav {
     top: 8px;
   }
+  
+  main nav ul li h2:click {
+    color: rgb(209, 194, 181);
+    background-color: olivedrab;
+    box-shadow: 15px;
+  }
+  
   .sidenav {
     padding-top: 30px;
   }
